@@ -1,4 +1,4 @@
-﻿namespace Steam.Net.Lib
+﻿namespace Steam.NET.Enums
 {
     public enum SteamTxReportType
     {

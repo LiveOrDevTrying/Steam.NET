@@ -1,16 +1,14 @@
 ﻿using Newtonsoft.Json;
-using Steam.Net.Lib;
-using Steam.Net.Lib.Requests;
-using Steam.Net.Lib.Responses;
-using System;
+using Steam.NET.Requests;
+using Steam.NET.Responses;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 
-namespace Steam.Net.Services
+namespace Steam.NET
 {
-    public class SteamWebAPI : ISteamWebAPI
+    public class SteamNET : ISteamNET
     {
         public virtual async Task<SteamUserInfoResponse> GetSteamUserInfoAsync(SteamUserInfoRequest request)
         {

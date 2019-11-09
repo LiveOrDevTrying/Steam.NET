@@ -1,11 +1,10 @@
 ﻿using Newtonsoft.Json;
 
-namespace Steam.Net.Lib.Responses
+namespace Steam.NET.Responses
 {
-    public class PurchaseSteamRefundResponse 
+    public class PurchaseSteamInitResponse
     {
         public Response response { get; set; }
-
         public class Response
         {
             public string result { get; set; }
@@ -22,7 +21,7 @@ namespace Steam.Net.Lib.Responses
 
         public class Errors
         {
-            public string errorcode { get; set; }
+            public int errorcode { get; set; }
             public string errordesc { get; set; }
         }
     }

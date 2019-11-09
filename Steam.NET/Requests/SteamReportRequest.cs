@@ -1,4 +1,4 @@
-﻿namespace Steam.Net.Lib.Requests
+﻿namespace Steam.NET.Requests
 {
     public class SteamReportRequest
     {

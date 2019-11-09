@@ -1,11 +1,10 @@
-﻿using System.Threading.Tasks;
-using Steam.Net.Lib;
-using Steam.Net.Lib.Requests;
-using Steam.Net.Lib.Responses;
+﻿using Steam.NET.Requests;
+using Steam.NET.Responses;
+using System.Threading.Tasks;
 
-namespace Steam.Net.Services
+namespace Steam.NET
 {
-    public interface ISteamWebAPI
+    public interface ISteamNET
     {
         Task<SteamAgreementResponse> GetSteamAgreementAsync(SteamAgreementRequest request);
         Task<SteamReportResponse> GetSteamReportAsync(SteamReportRequest request);

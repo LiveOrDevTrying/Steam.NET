@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
 
-namespace Steam.Net.Lib.Responses
+namespace Steam.NET.Responses
 {
-    public class PurchaseSteamProcessAgreementResponse
+    public class PurchaseSteamRefundResponse 
     {
         public Response response { get; set; }
 
@@ -17,7 +17,6 @@ namespace Steam.Net.Lib.Responses
         public class Params
         {
             public string orderid { get; set; }
-            public string agreementid { get; set; }
             public string transid { get; set; }
         }
 

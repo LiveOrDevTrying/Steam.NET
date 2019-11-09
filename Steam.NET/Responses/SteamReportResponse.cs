@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Steam.Net.Lib.Responses
+namespace Steam.NET.Responses
 {
     public class SteamReportResponse
     {
