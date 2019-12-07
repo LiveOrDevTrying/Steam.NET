@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/liveordevtrying/steam.net</projectUrl>
     <icon>Logo.png</icon>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>https://github.com/liveordevtrying/steam.net</description>
+    <description>A .NET wrapper for purchases using the Steam WebAPI</description>
     <releaseNotes></releaseNotes>
     <copyright>Copyright 2019</copyright>
     <tags>Steam SteamNET Steam.NET valve WebAPI purchase c#</tags>
