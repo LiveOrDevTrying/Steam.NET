@@ -15,7 +15,7 @@
     <copyright>Copyright 2019</copyright>
     <tags>Steam SteamNET Steam.NET valve WebAPI purchase c#</tags>
     <dependencies>
-      <group targetFramework="net21">
+      <group targetFramework="netcoreapp2.1">
         <dependency id="Microsoft.NETCore.App" version="[2.1,3]" />
         <dependency id="Newtonsoft.Json" version="[12.0.2,13]" />
       </group>
