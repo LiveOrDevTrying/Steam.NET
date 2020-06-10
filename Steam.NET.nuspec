@@ -12,12 +12,12 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A .NET wrapper for purchases using the Steam WebAPI</description>
     <releaseNotes></releaseNotes>
-    <copyright>Copyright 2019</copyright>
+    <copyright>Copyright 2020</copyright>
     <tags>Steam SteamNET Steam.NET valve WebAPI purchase c#</tags>
     <dependencies>
       <group targetFramework="netcoreapp2.1">
-        <dependency id="Microsoft.NETCore.App" version="[2.1,3]" />
-        <dependency id="Newtonsoft.Json" version="[12.0.2,13]" />
+        <dependency id="Microsoft.NETCore.App" version="2.1" />
+        <dependency id="Newtonsoft.Json" version="12.0.2" />
       </group>
     </dependencies>
   </metadata>

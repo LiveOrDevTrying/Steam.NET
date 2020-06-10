@@ -5,12 +5,12 @@
     <Authors>Rob Engel - LiveOrDevTrying</Authors>
     <Company>Rob Engel - LiveOrDevTrying - Pixel Horror Studios</Company>
     <Description>A .NET wrapper for purchases using the Steam WebAPI</Description>
-    <Copyright>Copyright 2019</Copyright>
+    <Copyright>Copyright 2020</Copyright>
     <PackageProjectUrl>https://github.com/liveordevtrying/steam.net</PackageProjectUrl>
     <RepositoryUrl>https://github.com/liveordevtrying/steam.net</RepositoryUrl>
     <RepositoryType>Github Public</RepositoryType>
     <PackageTags>Steam SteamNET Steam.NET valve WebAPI purchase c#</PackageTags>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageIconUrl>https://pixelhorrorstudios.s3-us-west-2.amazonaws.com/Packages/SteamNETLogo.png</PackageIconUrl>
   </PropertyGroup>
